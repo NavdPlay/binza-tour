@@ -96,7 +96,7 @@ body {
 
 .hero {
     width: 100%;
-    padding: 124px 24px 24px 24px;
+    padding: 140px 24px 30px 24px;
     background-image: url('/src/img/hero.jpg');
     background-size: cover;
     background-position: center center;
@@ -145,4 +145,66 @@ body {
     color: #f5f7fa;
     font-weight: bold;
     font-size: 13px;
+}
+
+/* HERO SECTION */
+/* SECTIONS UNIVERSAL STYLES */
+
+.sections {
+    width: 100%;
+    padding: 30px 15px;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sections .header {
+    font-size: 24px;
+    color: #006a4e;
+}
+
+.sections .subheader {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.sections .para {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* SECTIONS UNIVERSAL STYLES */
+/* FASILITAS SECTION */
+
+.fasilitas-container {
+    gap: 30px;
+}
+
+.fasilitas-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fasilitas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fasilitas-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fasilitas-header h3 {
+    font-size: 20px;
+    font-weight: 500;
 }
