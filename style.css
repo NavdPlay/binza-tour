@@ -369,8 +369,6 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 .photo-wrapper .photo {
-    border: 1px solid red;
-
     position: relative;
     overflow: hidden;
     border-radius: 10px;
