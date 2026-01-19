@@ -104,7 +104,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 .hero {
     width: 100%;
     padding: 140px 24px 30px 24px;
-    background-image: url('/src/img/hero.jpg');
+    background-image: url('src/img/hero.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
